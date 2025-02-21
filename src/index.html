@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="./style.css" rel="stylesheet">
-    <!-- <style>
-        div{
+    <style>
+        /* div{
             border: 1px solid black !important; 
-        }
-    </style> -->
+        } */
+    </style>
 </head>
 <body>
     <!-- Navbar -->
     <nav class="relative container mx-auto p-6">
         <!-- Flex container -->
-        <div class="flex items-center justify-between">
+        <div class="flex items-center justify-between">b
             <!-- Logo -->
             <div class="pt-2">
                 <img src="/img/logo.svg" alt="">
@@ -172,7 +172,80 @@
                     </p>
                 </div>
             </div>
+            <div class="my-16">
+                    <a href="" class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedSupLight">
+                        Get Started
+                    </a>
+            </div>
         </div>
     </section>
+
+    <!-- CTA SECTION -->
+    <section id="cta" class="bg-brightRed">
+        <!-- Flex Container -->
+        <div class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0">
+            <h2 class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:text-left">
+                Simplify how your team works today
+            </h2>
+            <!-- Button -->
+            <div>
+                <a href="" class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-300 md:block">
+                    Get Started
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue">
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
+            <!-- Logo and social links container -->
+            <div class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <!-- Logo -->
+                <div>
+                    <img src="/img/logo-white.svg" class="h-8" alt="">
+                </div>
+                <div class="flex justify center space-x-4 mt-2">
+                    <!-- link 1 -->
+                    <a href=""><img class="h-8" src="/img/icon-facebook.svg" alt=""></a>
+                    <a href=""><img class="h-8" src="/img/icon-instagram.svg" alt=""></a>
+                    <a href=""><img class="h-8" src="/img/icon-youtube.svg" alt=""></a>
+                    <a href=""><img class="h-8" src="/img/icon-twitter.svg" alt=""></a>
+                    <a href=""><img class="h-8" src="/img/icon-pinterest.svg" alt=""></a>
+                    
+                </div>
+            </div>
+            <!-- List container -->
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col text-white space-y-3">
+                    <a href="">Home</a>
+                    <a href="">Pricing</a>
+                    <a href="">Products</a>
+                    <a href="">About</a>
+                </div>
+                <div class="flex flex-col text-white space-y-3">
+                    <a href="">Careers</a>
+                    <a href="">Community</a>
+                    <a href="">Privacy Policy</a>
+                </div>
+            </div>
+            <!-- Input Container -->
+            <div class="flex flex-col justify-between">
+                <form>
+                    <div class="flex space-x-3">
+                        <input type="text" class="flex-1 px-4 rounded-full focus:outline-none bg-white" placeholder="Updated in your inbox">
+                        <button class="px-6 py-2 text-white rounded-full bg-brightRed">Go</button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- TEST CODE -->
+    
+
 </body>
 </html>
